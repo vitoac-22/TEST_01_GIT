@@ -4,6 +4,7 @@ library(shiny)
 ui <- fluidPage(
   titlePanel("Distribución Binomial"),
   substitute("Gráficas Función y Distribución de la Función de Probabilidad Binomial"),
+  substitute("VÍCTOR E. ACARO B."),
   sidebarLayout(
     sidebarPanel(
       numericInput("n", "Número de veces realizado el experimento:", value = 5, min = 1),
